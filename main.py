@@ -3,11 +3,12 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-st.header("Klasifikasi Artikel Berita Dengan Reduksi Dimensi", divider='rainbow')
 st.title("PROJEK UAS PPW")
 st.write("-------------------------------------------------------------------------------------------------------------------------")
 st.write("**Nama  : Amallia Tiara Putri**")
 st.write("**NIM   : 200411100025**")
+st.write("-------------------------------------------------------------------------------------------------------------------------")
+st.header("Klasifikasi Artikel Berita Dengan Reduksi Dimensi")
 st.write("-------------------------------------------------------------------------------------------------------------------------")
 text = st.text_area("Masukkan Artikel Berita")
 
