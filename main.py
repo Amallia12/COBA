@@ -10,7 +10,7 @@ st.write("**NIM   : 200411100025**")
 st.write("-------------------------------------------------------------------------------------------------------------------------")
 st.header("Klasifikasi Artikel Berita")
 st.write("-------------------------------------------------------------------------------------------------------------------------")
-text = st.text_area("Masukkan Artikel Berita")
+text = st.text_area("Input Artikel Berita")
 
 button = st.button("Submit")
 
