@@ -8,7 +8,7 @@ st.write("----------------------------------------------------------------------
 st.write("**Nama  : Amallia Tiara Putri**")
 st.write("**NIM   : 200411100025**")
 st.write("-------------------------------------------------------------------------------------------------------------------------")
-st.header("Klasifikasi Artikel Berita Dengan Reduksi Dimensi")
+st.header("Klasifikasi Artikel Berita")
 st.write("-------------------------------------------------------------------------------------------------------------------------")
 text = st.text_area("Masukkan Artikel Berita")
 
