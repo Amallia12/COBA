@@ -36,12 +36,12 @@ if button:
 
 selected = option_menu(
   menu_title="",
-  options=["Dataset Information", "History Uji Coba" ,"Klasifikasi"],
+  options=["Dataset", "Jejak Uji Coba" ,"Klasifikasi"],
   icons=["data", "Process", "model", "implemen", "Test", "sa"],
   orientation="horizontal"
   )
 
-if selected == "Dataset Information":
+if selected == "Dataset":
     st.write("Dataset Asli")
     st.dataframe(pd.read_csv('Dataset_Berita_UAS.csv'), use_container_width=True)
     st.write("Dataset Hasil Reduksi Dimensi")
@@ -58,6 +58,6 @@ elif selected == "Klasifikasi":
       with nb_NonLDA:
         st.write(f"Prediction Category : {st.session_state.nb_asli}")
         
-elif selected == "History Uji Coba":
+elif selected == "Jejak Uji Coba":
     st.write("Hasil Uji Coba")
     st.dataframe(pd.read_csv('history.csv'), use_container_width=True)
